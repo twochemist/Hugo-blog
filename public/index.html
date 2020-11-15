@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <title>AntonioArjona</title>
+
+<meta name="theme-color" content="" />
+<meta charset="utf-8" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta name="description" content="Personal Website from Antonio Arjona" />
+<meta name="author" content="Darshan Baral" />
+<meta name="generator" content="aafu theme by Darshan in Hugo 0.76.5" />
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">        <link rel="manifest" href="/site.webmanifest">        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">        <link rel="shortcut icon" href="/favicon.ico">        
+
+  <link
+    rel="stylesheet"
+    href="/css/bootstrap/bootstrap.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="//fonts.googleapis.com/css?family=Didact+Gothic%7CRoboto:400%7CRoboto+Mono"
+  />
+  <link rel="stylesheet" href="/css/aafu_light.css" />
+  <link rel="stylesheet" href="/css/aafu.css" />
+
+  <script>
+    var themeColor = document.querySelector("meta[name=theme-color]");
+    window.onload = () => {
+      themeColor.content = getComputedStyle(document.body)["background-color"];
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+    window.onresize = () => {
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+  </script>
+</head>
+<body class="container">
+    <main style="min-height: calc(100vh - 60px);">
+      
+      <div class="d-flex flex-row row p-2">
+  <h3 class="main-menu mr-3">
+    <a href="https://www.example.org/">About</a>
+  </h3>
+  <h3 class="main-menu mr-3">
+    <a href="/blog">Articles</a>
+  </h3>
+</div>
+
+      
+<div class="ml-auto mr-auto row row-eq-height rounded">
+  <div class="col-md-5 text-center p-2 mt-1">
+    <div class="profile-area rounded text-center position-relative shadow">
+      <div class="d-flex justify-content-center pt-2">
+  <div class="w-100 h-100">
+    <img
+      class="rounded rounded-circle mt-4"
+      src="/images/profile.jpg"
+      alt="Darshan Baral"
+      style="width: 95%; max-width: 300px;"
+    />
+  </div>
+</div>
+
+      <div class="p-2">
+        <h1 class="mb-0">Antonio Arjona</h1>
+<h2 class="mb-0">Software Developer</h2>
+<h3 class="mb-0">based in NRW, Germany</h3>
+<div class="mt-2 d-flex flex-wrap justify-content-center">
+  
+  <div style="height:45px; width:45px;">
+    <a href="https://www.linkedin.com/in/antonio-manuel-arjona">
+      <i class="zoomlink mt-1 fab fa-linkedin-in"></i>
+    </a>
+  </div>
+  
+  <div style="height:45px; width:45px;">
+    <a href="https://github.com/twochemist">
+      <i class="zoomlink mt-1 fab fa-github"></i>
+    </a>
+  </div>
+  
+  <div style="height:45px; width:45px;">
+    <a href="#">
+      <i class="zoomlink mt-1 fab fa-twitter"></i>
+    </a>
+  </div>
+  
+</div>
+ <footer class=" mt-2 mb-2 ">
+  <span class="markdownify">©2020 Powered by</span>
+  <span >
+    &middot;
+    <i>
+      <a href="https://gohugo.io/">
+        Hugo
+      </a>
+    </i>
+    and 
+    <a href="https://www.netlify.com/">
+      Netlify
+    </a>
+  </span>
+</footer>
+
+      </div>
+    </div>
+  </div>
+  <div class="col-md-7 pt-2 mt-3">
+    
+    <h2 class="accordion  active ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-user"></i>
+        About Me</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      <p class="markdownify">
+  A Chemist, lover of open software, embedded systems and software that move things. I am professionally connected with the automotive industry as a <strong>QA Engineer</strong> for lighting &amp; electronics systems. I graduated with a master&rsquo;s degree in <em>Chemistry</em> from the <em>University of Granada</em> in ES. I am somehow <strong>forced to effectively become a programmer</strong> to productively communicate with any Software Engineer. I dedicate my little free time to build side projects in <strong>Web Development</strong> and <strong>Embedded Systems.</strong>
+</p>
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-briefcase"></i>
+        Experiences</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      
+<dl>
+  <dt class="mb-0">
+    QA Engineer
+  </dt>
+  <dd class="mb-0 ml-3">
+    <span class="markdownify">2004 - <em>Present</em></span>
+    &middot;
+    
+    Automotive Industry
+    
+  </dd>
+  <dd class="mb-0 ml-4 markdownify">Lighting applications based on intensive usage of electronic and LEDs.</dd>
+</dl>
+
+<dl>
+  <dt class="mb-0">
+    Product Development
+  </dt>
+  <dd class="mb-0 ml-3">
+    <span class="markdownify">2003 - 2003</span>
+    &middot;
+    
+    Chemistry Industry
+    
+  </dd>
+  <dd class="mb-0 ml-4 markdownify">Software libraries translation for analytical instrumentation.</dd>
+</dl>
+
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-graduation-cap"></i>
+        Education</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      
+<dl>
+  <dt>M.S. in Chemistry</dt>
+  <dd class="mb-0 ml-3">1998 - 2004 &middot; University of Granada</dd>
+  
+  <dd class="mb-0 ml-4">
+    Thesis:
+    <a href="#"
+      ><i>Analytical determination of alcohol content in beverages by phase titration.</i></a
+    >
+  </dd>
+  
+</dl>
+
+<dl>
+  <dt>Study abroad, Germany</dt>
+  <dd class="mb-0 ml-3">2003 - 2004 &middot; Friedrich-Schiller-Universität Jena. Fakultät für Chemie 5.S/6.S</dd>
+  
+</dl>
+
+<dl>
+  <dt>PGc in Polymer Materials</dt>
+  <dd class="mb-0 ml-3">2006 - 2009 &middot; UNED. Synthesis of Polymers and Processing Technologies. </dd>
+  
+</dl>
+
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-code"></i>
+        Programming</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      
+
+
+<h4 style="text-decoration: underline;">Web Technologies</h4><p>2019.
+Front-end Developer.
+
+
+<a href="#">
+  <em>HTML, CSS, JS (Vue, React, Angular), Wordpress.</em>
+</a>
+
+
+Pixelpro.
+</p>
+
+
+<h4 style="text-decoration: underline;">Microcontrollers</h4><p>2018.
+Arduino Project Hub.
+
+
+<a href="#">
+  <em>Javascript | C | Python.</em>
+</a>
+
+
+arduino.cc.
+</p>
+
+
+<h4 style="text-decoration: underline;">Embedded Software</h4><p>2018.
+C&#43;&#43; | Python.
+
+
+<a href="#">
+  <em>Coding standard C&#43;&#43;14 | Software testing.</em>
+</a>
+
+
+Udemy.
+</p>
+
+
+
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-project-diagram"></i>
+        Projects</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      <dl>
+  
+  <dt>
+    <a href="#" style="font-variant: small-caps; ">EMBEDDED Systems</a>
+  </dt>
+  <dd class="mb-0 ml-3 markdownify">Arduino rover autonomous navigation</dd>
+  
+  <dt>
+    <a href="#" style="font-variant: small-caps; ">E-COMMERCE Web Sites</a>
+  </dt>
+  <dd class="mb-0 ml-3 markdownify">CMS Wordpress with WooCommerce</dd>
+  
+  <dt>
+    <a href="#" style="font-variant: small-caps; ">STATIC Site Generator</a>
+  </dt>
+  <dd class="mb-0 ml-3 markdownify">CMS Hugo &amp; Netlify</dd>
+  
+  <dt>
+    <a href="#" style="font-variant: small-caps; ">WEB Landing Pages</a>
+  </dt>
+  <dd class="mb-0 ml-3 markdownify">HTML-CSS-JS templates from scratch</dd>
+  
+  <dt>
+    <a href="#" style="font-variant: small-caps; ">WEB Corporate Company</a>
+  </dt>
+  <dd class="mb-0 ml-3 markdownify">CMS TYPO3</dd>
+  
+</dl>
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-cogs"></i>
+        Skills</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+      id="skill-panel"
+      
+    >
+      <script>
+  let skillPanel = document.querySelector("#skill-panel")
+    .previousElementSibling;
+  skillPanel.addEventListener("click", function() {
+    let skillBars = document.querySelectorAll("#skill-percent");
+    skillBars.forEach(elem => {
+      elem.style.width = elem.classList[0];
+    });
+  });
+</script>
+
+<code>Development &amp; Manufacturing in Automotive</code>
+<div class="w-100 skillbar mt-1 mb-3">
+  <div id="skill-percent" class="80%" style="width: 0;"></div>
+</div>
+
+<code>Software Development in Web Applications</code>
+<div class="w-100 skillbar mt-1 mb-3">
+  <div id="skill-percent" class="60%" style="width: 0;"></div>
+</div>
+
+<code>Electronics for Makers</code>
+<div class="w-100 skillbar mt-1 mb-3">
+  <div id="skill-percent" class="50%" style="width: 0;"></div>
+</div>
+
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-gamepad"></i>
+        Hobbies</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      <ul class="pl-0">
+  
+  <li class="list-unstyled mb-2">Web Development</li>
+  
+  <li class="list-unstyled mb-2">Programming</li>
+  
+  <li class="list-unstyled mb-2">Triathlon</li>
+  
+  <li class="list-unstyled mb-2">Drawing</li>
+  
+</ul>
+
+    </div>
+    
+    <script src="/js/accordion.js"></script>
+  </div>
+</div>
+
+    </main>
+    
+  </body>
+</html>

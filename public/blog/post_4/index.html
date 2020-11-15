@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <title>AntonioArjona</title>
+
+<meta name="theme-color" content="" />
+<meta charset="utf-8" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta name="description" content="Personal Website from Antonio Arjona" />
+<meta name="author" content="Darshan Baral" />
+<meta name="generator" content="aafu theme by Darshan in Hugo 0.76.5" />
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">        <link rel="manifest" href="/site.webmanifest">        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">        <link rel="shortcut icon" href="/favicon.ico">        
+
+  <link
+    rel="stylesheet"
+    href="/css/bootstrap/bootstrap.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="//fonts.googleapis.com/css?family=Didact+Gothic%7CRoboto:400%7CRoboto+Mono"
+  />
+  <link rel="stylesheet" href="/css/aafu_light.css" />
+  <link rel="stylesheet" href="/css/aafu.css" />
+
+  <script>
+    var themeColor = document.querySelector("meta[name=theme-color]");
+    window.onload = () => {
+      themeColor.content = getComputedStyle(document.body)["background-color"];
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+    window.onresize = () => {
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+  </script>
+</head>
+<body class="container">
+    <main style="min-height: calc(100vh - 60px);">
+      
+      <div class="d-flex flex-row row p-2">
+  <h3 class="main-menu mr-3">
+    <a href="https://www.example.org/">About</a>
+  </h3>
+  <h3 class="main-menu mr-3">
+    <a href="/blog">Articles</a>
+  </h3>
+</div>
+
+      
+<div class="rounded p-2 aafu-border border">
+  <div class="border-bottom aafu-border">
+    <h1 class="top-h1" style="font-size: 2.75em;">Embedded Software Testing</h1><div class="mb-2">
+  <p class="mb-1">October 23, 2020</p>
+   
+  
+  <p class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories: 
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/categories/embedded"
+      title="categories"
+    >Embedded</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/categories/software"
+      title="categories"
+    >Software</a>
+    
+  </p>
+  
+  
+  
+  <p class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags: 
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/software"
+      title="tags"
+    >software</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/testing"
+      title="tags"
+    >testing</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/embedded"
+      title="tags"
+    >embedded</a>
+    
+  </p>
+  
+  
+</div>
+</div>
+  <div class="content">
+    <h1 id="software-testing">Software Testing</h1>
+<p>The end of product development is where testing typically occurs, but the first cut if the project run late. Opposite to any kind of engineering discipline where testing is considered fundamental, the code inspection is the last steps in software development.</p>
+<p>After checking the requirements, create a high level design, write the code and perform a couple of unit testing and integrations, then is time to perform final tests. This is a critical step until the end of the project and it would be better to do it progressive, rather than wait until the end.</p>
+<p>An embedded software is custom with a high percentage of new code, this is not a standard platform where it can be used external libraries. Unlike in software, the firmware has to be debugged and tested in several stages, as this need to work with hardware and memory map of the device.</p>
+<h2 id="functional-tests">Functional Tests</h2>
+<ul>
+<li>Stress tests</li>
+<li>Booundary tests</li>
+<li>Exception tests</li>
+<li>Error guessing</li>
+<li>Random tests</li>
+<li>Performance tests</li>
+</ul>
+<p>Testing can be integrated in Scrum Sprints to secure the verification, integration and qualification.
+Bugs are inevitable in embedded systems and it should be the challenge of software engineers to mitigate them during the project, whatever it cost or how complex the implementation will be. It will save you headaches and money down the road.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// if statement without an else part
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">condition</span> <span style="color:#a6e22e">is</span> <span style="color:#66d9ef">true</span>)
+{
+<span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">then</span> <span style="color:#66d9ef">do</span> <span style="color:#a6e22e">these</span> <span style="color:#a6e22e">statements</span> <span style="color:#f92672">&gt;</span>;
+}
+<span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">code</span> <span style="color:#a6e22e">following</span> <span style="color:#a6e22e">elseless</span> <span style="color:#66d9ef">if</span> <span style="color:#f92672">&gt;</span>
+<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">A</span> <span style="color:#f92672">|</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">B</span>)
+{
+<span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">then</span> <span style="color:#66d9ef">do</span> <span style="color:#a6e22e">these</span> <span style="color:#a6e22e">statements</span> <span style="color:#f92672">&gt;</span>;
+}
+</code></pre></div><h2 id="assembly-languages">Assembly languages</h2>
+<p>ARM and x86 are the most popular one.</p>
+<h2 id="recap">Recap</h2>
+<p>If you want to control the quality of your software, you have to measure the quality of your testing.</p>
+
+  </div>
+</div>
+<div class="d-flex flex-row justify-content-center">
+  <h3 class="mb-1 mt-1 text-left mr-4">
+    
+    <a
+      href="/blog/post_2/"
+      title="Do Your Own Robot"
+    >
+      <i class="nav-menu fas fa-chevron-circle-left"></i>
+    </a>
+    
+  </h3>
+  <h3 class="mb-1 mt-1 text-left ml-4">
+    
+    <a
+      href="/blog/post_3/"
+      title="Software Development in Automotive with ASPICE"
+    >
+      <i class="nav-menu fas fa-chevron-circle-right"></i>
+    </a>
+    
+  </h3>
+</div>
+
+
+    </main>
+    
+    <footer class=" mt-2 mb-4 text-center ">
+  <span class="markdownify">©2020 Powered by</span>
+  <span >
+    &middot;
+    <i>
+      <a href="https://gohugo.io/">
+        Hugo
+      </a>
+    </i>
+    and 
+    <a href="https://www.netlify.com/">
+      Netlify
+    </a>
+  </span>
+</footer>
+
+    
+  </body>
+</html>

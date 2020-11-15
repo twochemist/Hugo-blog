@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>electronic on </title>
+    <link>https://www.example.org/tags/electronic/</link>
+    <description>Recent content in electronic on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.example.org/tags/electronic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Do Your Own Robot</title>
+      <link>https://www.example.org/blog/post_2/</link>
+      <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.org/blog/post_2/</guid>
+      <description>DYOR Rover Objective This project focuses on the design, development and manufacturing of a rover that can autonomously navigate covering aspects such as control, sensorization, programming and planning of robotic systems. The DYOR robot follows a very basic approach and it is dependent on ultrasonic sensors and a digital compass with Arduino. The robot is a standalone system and the autonomous navigation is done by the onboard controller. The methodology implemented is commonly used in robotic and informatics.</description>
+    </item>
+    
+  </channel>
+</rss>

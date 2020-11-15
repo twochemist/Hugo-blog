@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>automotive on </title>
+    <link>https://www.example.org/tags/automotive/</link>
+    <description>Recent content in automotive on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.example.org/tags/automotive/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software Development in Automotive with ASPICE</title>
+      <link>https://www.example.org/blog/post_3/</link>
+      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.org/blog/post_3/</guid>
+      <description>Automotive SPICE If you don&amp;rsquo;t work in the Automotive Industry, ASPICE won&amp;rsquo;t tell you most probably anything. Even for people within the industry not working in software development would be pretty unknown.
+Well, this standard is established as a reference model to standardize the vehicle functionality and its reliability by introducing high complex software system to ensure the development and manufacturing in time and quality. If you are an electronic engineer, it might seem like the standard used for circuit analysis SPICE.</description>
+    </item>
+    
+  </channel>
+</rss>

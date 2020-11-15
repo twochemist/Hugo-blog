@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>software on </title>
+    <link>https://www.example.org/tags/software/</link>
+    <description>Recent content in software on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.example.org/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software Development in Automotive with ASPICE</title>
+      <link>https://www.example.org/blog/post_3/</link>
+      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.org/blog/post_3/</guid>
+      <description>Automotive SPICE If you don&amp;rsquo;t work in the Automotive Industry, ASPICE won&amp;rsquo;t tell you most probably anything. Even for people within the industry not working in software development would be pretty unknown.
+Well, this standard is established as a reference model to standardize the vehicle functionality and its reliability by introducing high complex software system to ensure the development and manufacturing in time and quality. If you are an electronic engineer, it might seem like the standard used for circuit analysis SPICE.</description>
+    </item>
+    
+    <item>
+      <title>Embedded Software Testing</title>
+      <link>https://www.example.org/blog/post_4/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.org/blog/post_4/</guid>
+      <description>Software Testing The end of product development is where testing typically occurs, but the first cut if the project run late. Opposite to any kind of engineering discipline where testing is considered fundamental, the code inspection is the last steps in software development.
+After checking the requirements, create a high level design, write the code and perform a couple of unit testing and integrations, then is time to perform final tests.</description>
+    </item>
+    
+  </channel>
+</rss>

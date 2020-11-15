@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>https://www.example.org/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software Development in Automotive with ASPICE</title>
+      <link>https://www.example.org/blog/post_3/</link>
+      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.org/blog/post_3/</guid>
+      <description>Automotive SPICE If you don&amp;rsquo;t work in the Automotive Industry, ASPICE won&amp;rsquo;t tell you most probably anything. Even for people within the industry not working in software development would be pretty unknown.
+Well, this standard is established as a reference model to standardize the vehicle functionality and its reliability by introducing high complex software system to ensure the development and manufacturing in time and quality. If you are an electronic engineer, it might seem like the standard used for circuit analysis SPICE.</description>
+    </item>
+    
+    <item>
+      <title>Embedded Software Testing</title>
+      <link>https://www.example.org/blog/post_4/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.org/blog/post_4/</guid>
+      <description>Software Testing The end of product development is where testing typically occurs, but the first cut if the project run late. Opposite to any kind of engineering discipline where testing is considered fundamental, the code inspection is the last steps in software development.
+After checking the requirements, create a high level design, write the code and perform a couple of unit testing and integrations, then is time to perform final tests.</description>
+    </item>
+    
+    <item>
+      <title>Do Your Own Robot</title>
+      <link>https://www.example.org/blog/post_2/</link>
+      <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.org/blog/post_2/</guid>
+      <description>DYOR Rover Objective This project focuses on the design, development and manufacturing of a rover that can autonomously navigate covering aspects such as control, sensorization, programming and planning of robotic systems. The DYOR robot follows a very basic approach and it is dependent on ultrasonic sensors and a digital compass with Arduino. The robot is a standalone system and the autonomous navigation is done by the onboard controller. The methodology implemented is commonly used in robotic and informatics.</description>
+    </item>
+    
+    <item>
+      <title>Imprint</title>
+      <link>https://www.example.org/blog/imprint/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.org/blog/imprint/</guid>
+      <description>Imprint Information provided according to Sec. 5 German Telemedia Act (TMG). Responsible for contents acc. to Sec. 55, para. 2 German Federal Broadcasting Agreement (RstV). This web site is maintained by:
+   Antonio Arjona     59555 Lippstadt   NRW Germany   manuellido[at] gmail[dot]com     Legal notices Disclaimer These pages describe personal hobby programming projects. They do not pursue commercial interests and are not affiliated with any commercial enterprise.</description>
+    </item>
+    
+  </channel>
+</rss>
