@@ -3,8 +3,8 @@ languageCode = "en-us"
 theme = "aafu"
 
 [params]
-    title = "AntonioArjona"
-    author = "Darshan Baral"
+    title = "Antonio Arjona"
+    author = "Chemistdev"
     description = "Personal Website from Antonio Arjona"
     copyright = "©2020 Powered by"
 
@@ -30,7 +30,7 @@ theme = "aafu"
     [params.profile]
         name = "Antonio Arjona"
 		tagline = "Software Developer"
-		location = "based in NRW, Germany"
+		location = "based in North Rhine-Westphalia (Germany)"
         photo = "profile.jpg"
 
     # Section for links to social websites
@@ -51,7 +51,7 @@ theme = "aafu"
         [[params.social.list]]
             class = "fab"
             icon = "fa-twitter"
-            url = "#"
+            url = "https://twitter.com/chemistdev"
             title = "Twitter"
 
     #Specify what is showin in the Accordion
@@ -74,7 +74,7 @@ theme = "aafu"
     [params.aboutme]
         title = "About Me"
         icon = "fas fa-user"
-        description = "A Chemist, lover of open software, embedded systems and software that move things. I am professionally connected with the automotive industry as a **QA Engineer** for lighting & electronics systems. I graduated with a master's degree in _Chemistry_ from the _University of Granada_ in ES. I am somehow __forced to effectively become a programmer__ to productively communicate with any Software Engineer. I dedicate my little free time to build side projects in **Web Development** and **Embedded Systems.**"
+        description = "A Chemist, lover of open software, embedded systems and software that move things. I am professionally connected with the automotive industry as a **QA Engineer** for lighting & electronics systems.I graduated with a master's degree in _Chemistry_ from the _University of Granada_ in ES. I am somehow __forced to become a Programmer__ to productively communicate with any Software Engineer. I dedicate my little free time to build side projects in **Web Development** and **Embedded Systems.**"
 
     # Experience section
     [params.experience]
@@ -82,7 +82,7 @@ theme = "aafu"
         icon = "fas fa-briefcase"
 
         [[params.experience.list]]
-            position = "QA Engineer"
+            position = "Quality Engineer"
             dates = "2004 - *Present*"
             company = "Automotive Industry"
             details = "Lighting applications based on intensive usage of electronic and LEDs."
@@ -90,7 +90,7 @@ theme = "aafu"
 	  [[params.experience.list]]
             position = "Product Development"
             dates = "2003 - 2003"
-            company = "Chemistry Industry"
+            company = "Chemical Pharma Industry"
             details = "Software libraries translation for analytical instrumentation."
 	  
 
@@ -128,8 +128,8 @@ theme = "aafu"
         types = ["Web Technologies", "Microcontrollers", "Embedded Software"]
 
         [[params.publication.list]]
-            title = "HTML, CSS, JS (Vue, React, Angular), Wordpress"
-            authors = "Front-end Developer"
+            title = "HTML, CSS and JavaScript frameworks (Vue.js, React, Angular)"
+            authors = "Front-End Developer"
             date = "2019"
             journal = "Pixelpro"
             link = "#"
@@ -208,3 +208,4 @@ theme = "aafu"
 		    hobby = "Triathlon"
         [[params.hobby.list]]		
 		    hobby = "Drawing"
+
