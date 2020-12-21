@@ -3,7 +3,7 @@ languageCode = "en-us"
 theme = "aafu"
 
 [params]
-    title = "Antonio Arjona"
+    title = "Antonio Arjona | Web Developer"
     author = "Chemistdev"
     description = "Personal Website from Antonio Arjona"
     copyright = "©2020 Powered by"
