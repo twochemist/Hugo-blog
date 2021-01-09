@@ -74,7 +74,7 @@ theme = "aafu"
     [params.aboutme]
         title = "About Me"
         icon = "fas fa-user"
-        description = "A Chemist, lover of open software, embedded systems and software that move things. I am professionally connected with the automotive industry as a **QA Engineer** for lighting & electronics systems.I graduated with a master's degree in _Chemistry_ from the _University of Granada_ in ES. I am somehow __forced to become a Programmer__ to productively communicate with any Software Engineer. I dedicate my little free time to build side projects in **Web Development** and **Embedded Systems.**"
+        description = "A Chemist, lover of open software, embedded systems and software that move things. Professionally connected with the automotive industry as a **QA Engineer** for lighting & electronics systems.I graduated with a master's degree in _Chemistry_ from the _University of Granada_ in Spain. I am somehow __forced to become a Programmer__ because technological innovations are happening every day. I dedicate my little free time to build side projects in **Web Development** and **Embedded Systems.**"
 
     # Experience section
     [params.experience]
@@ -100,7 +100,7 @@ theme = "aafu"
         icon = "fas fa-graduation-cap"
 
          [[params.education.list]]
-            degree = "M.S. in Chemistry"
+            degree = "MSc in Chemistry"
             college = "University of Granada"
             dates = "1998 - 2004"
             thesis_title = "Analytical determination of alcohol content in beverages by phase titration."
