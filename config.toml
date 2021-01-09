@@ -6,7 +6,7 @@ theme = "aafu"
     title = "Antonio Arjona - Quality Engineer & Web Developer"
     author = "Chemistdev"
     description = "Personal Website from Antonio Arjona"
-    copyright = "©2020 Powered by"
+    copyright = "©2021 Powered by"
 
     [params.theme]
         # Available themes are 'light', 'dark', and 'pinkish'
