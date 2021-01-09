@@ -29,7 +29,7 @@ theme = "aafu"
     # Profile section
     [params.profile]
         name = "Antonio Arjona"
-		tagline = "Software Developer for Web Applications"
+		tagline = "Quality Engineer & Software Developer for Web Applications"
 		location = "based in North Rhine-Westphalia (Germany)"
         photo = "profile.jpg"
 
