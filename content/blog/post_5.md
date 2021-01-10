@@ -33,8 +33,8 @@ To understand at a glance what EMC is, let's explain the three coupling mec
 
 ## Analysis of Test Results 
 
-The EMC is measured Anechoic Chambers, but the antennas are the most important items because are the methods to receive and emits signals.
-Another key element is the coaxial cable to transfer the energy. Depending on which conformace is intended to be demostrated, before of all a test plan must be created. An EMC engineer should review the design, the parts, the wiring and the packaging space whithin the system under study.
+The EMC is measured in Anechoic Chambers, but the antennas are the most important items because are the methods to receive and emits signals.
+Another key element is the coaxial cable to transfer the energy. Before any test is done, an EMC engineer should review the design, the parts, the wiring and the packaging space whithin the system under study.
 
 The test plan will include:   
 
@@ -52,12 +52,12 @@ EMC issues it would experience problems with the electronic control if t
 
 ## Software consideration in EMC 
 
-The Firmware/Software is not directly affected for EMC problems, but since they are controlling the switch in µControllers the clock frequencies in combination with the software loops can cause abnormallity in the system. For example, the use of PWM signals to provide different functionalities can generate noise. This frequencies (noise) can be controlled by the software adjusting the signal.  
+The Firmware/Software is not directly affected for EMC problems, but since they are controlling the switch in µControllers the clock frequencies in combination with the software loops can cause abnormality in the system. For example, the use of PWM signals to provide different functionalities can generate noise. This undesirable frequencies can be controlled by the software adjusting the signal.  
 
 ## Electrostatic Discharge - ESD 
 
-Traditioinally the ESD check is introduced later than the EMC study, because we need to understand firstly the conducted and radiated characteristics. ESD can have emissions affecting other components that don't have enough immunity. The capacitance between surfaces can store a charge, creating a voltage difference with potential discharges. The semiconductor components operate on lower voltages and a damage can happend inf a couple of hundreds of volts come through. The ESD test is normally performed using an ESD gun, which applies high voltages to several wires and connections on the system. 
+Traditioinally the ESD check is introduced later than the EMC study, because we need to understand firstly the conducted and radiated characteristics. ESD can have emissions affecting other components that don't have enough immunity. The capacitance between surfaces can store a charge, creating a voltage difference with potential discharges. The semiconductor components operate on lower voltages and a damage can happend if a couple of hundreds of volts come through. The ESD test is normally performed using an ESD gun, which applies high voltages to several wires and connections on the system. 
 
 ## The Value of EMC 
 
-Performing EMC tests is a very time consuming process. Analysis on early stages of the project, while layout changes can be implemented on PCBA, is crucial to determina effects of external fields on an electronic system. Passenger vehicles nowadays have around 4 km of wiring and cabling. Make sense to apply particular lessons learned from previous generations.
+Performing EMC tests is a very time consuming process. Analysis on early stages of the project, while layout changes can be implemented on PCBA, is crucial to determin effects of external fields on an electronic system. Passenger vehicles nowadays have around 4 km of wiring and cabling. Make sense to apply particular lessons learned from previous generations.
