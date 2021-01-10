@@ -129,8 +129,8 @@ theme = "aafu"
 
         [[params.publication.list]]
             title = "HTML, CSS and JavaScript frameworks (Vue.js, React, Angular)"
-            authors = "Front-End Developer"
-            date = "2019"
+            authors = "Frontend Developer"
+            date = "2020"
             journal = "Pixelpro"
             link = "#"
             type = "Web Technologies"
