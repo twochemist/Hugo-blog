@@ -74,7 +74,7 @@ theme = "aafu"
     [params.aboutme]
         title = "About Me"
         icon = "fas fa-user"
-        description = "A Chemist, lover of open software, embedded systems and software that move things. Professionally connected with the automotive industry as a **QA Engineer** for lighting & electronics systems.I graduated with a master's degree in _Chemistry_ from the _University of Granada_ in Spain. I am somehow __forced to become a Programmer__ because technological innovations are happening every day. I dedicate my little free time to build side projects in **Web Development** and **Embedded Systems.**"
+        description = "Web Development, Embedded Systems and Open Software that move things. Professionally connected with the Automotive Industry as a **Q-Engineer** for Exterior Lighting & Electronics Systems.I graduated with a master's degree in _Chemistry_ from the _University of Granada_ in Spain. I am somehow __forced to become a Programmer__, dedicating my little free time to build side projects in **Web Development** and **Embedded Systems.**"
 
     # Experience section
     [params.experience]
@@ -111,7 +111,7 @@ theme = "aafu"
             dates = "2003 - 2004"      
         [[params.education.list]]
             degree = "PGc in Polymer Materials"
-            college = "UNED. Synthesis of Polymers and Processing Technologies. "
+            college = "UNED. Polymer Technology Advanced Materials."
             dates = "2006 - 2009"
 	  thesis_title = ""
           
@@ -128,7 +128,7 @@ theme = "aafu"
         types = ["Web Technologies", "Microcontrollers", "Embedded Software"]
 
         [[params.publication.list]]
-            title = "HTML, CSS and JavaScript frameworks (Vue.js, React, Angular)"
+            title = "HTML | CSS | JavaScript (Vue.js, React, Angular)"
             authors = "Frontend Developer"
             date = "2020"
             journal = "Pixelpro"
@@ -136,9 +136,9 @@ theme = "aafu"
             type = "Web Technologies"
 
         [[params.publication.list]]
-            title = "Javascript | C | Python"
+            title = "Javascript | Python"
             authors = "Arduino Project Hub"
-            date = "2018"
+            date = "2019"
             journal = "arduino.cc"
             link = "#"
             type = "Microcontrollers"
@@ -146,8 +146,8 @@ theme = "aafu"
         [[params.publication.list]]
             title = "Coding standard C++14 | Software testing"
             authors = "C++ | Python"
-            date = "2018"
-            journal = "Udemy"
+            date = "2019"
+            journal = "Educative"
             link = "#"
             type = "Embedded Software"
 
@@ -173,7 +173,7 @@ theme = "aafu"
         [[params.project.list]]
             title = "WEB Landing Pages"
             url = "#"
-            description = "HTML-CSS-JS templates from scratch"      
+            description = "HTML-CSS-JS from scratch"      
         [[params.project.list]]
             title = "WEB Corporate Company"
             url = "#"
@@ -189,10 +189,10 @@ theme = "aafu"
             skill = "Development & Manufacturing in Automotive"
             skillrating = 80
         [[params.skill.list]]
-            skill = "Software Development in Web Applications"
+            skill = "Programming Web Applications"
             skillrating = 60
         [[params.skill.list]]
-            skill = "Electronics for Makers"
+            skill = "Electronic for Makers"
             skillrating = 50
 
     # Hobby section
@@ -206,6 +206,5 @@ theme = "aafu"
 		    hobby = "Programming"		    
         [[params.hobby.list]]		
 		    hobby = "Triathlon"
-        [[params.hobby.list]]		
-		    hobby = "Drawing"
+
 
