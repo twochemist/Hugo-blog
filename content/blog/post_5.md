@@ -61,3 +61,6 @@ Traditioinally the ESD check is introduced later than the EMC study, because we 
 ## The Value of EMC 
 
 Performing EMC tests is a very time consuming process. Analysis on early stages of the project, while layout changes can be implemented on PCBA, is crucial to determina effects of external fields on an electronic system. Passenger vehicles nowadays have around 4 km of wiring and cabling. Make sense to apply particular lessons learned from previous generations.
+
+
+!['Arduino'](https://source.unsplash.com/FO7JIlwjOtU)
