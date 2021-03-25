@@ -93,7 +93,6 @@ Tutored by Dr. Leopoldo Armesto from the Universitat Politècnica de Valencia (S
 
 <a href="https://unsplash.com/photos/zP7X_B86xOg" rel="some text"><img src="/resources/_gen/images/dyor1.PNG" alt="" /></a>
 
-![DYOR](dyor1.PNG)
-![DYOR mascot](/resources/_gen/images/dyor2.PNG)
 
+!['Arduino'](https://source.unsplash.com/fZB51omnY_Y)
 
