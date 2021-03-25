@@ -6,6 +6,7 @@ categories: ["Embedded", "Software"]
 description: "Software Development"
 draft: false
 ---
+!['Arduino'](https://source.unsplash.com/oZ61KFUQsus)
 
 # Software Testing
 
@@ -48,3 +49,4 @@ ARM and x86 are the most popular one.
 
 If you want to control the quality of your software, you have to measure the quality of your testing. 
 
+!['Arduino'](https://source.unsplash.com/LKsHwgzyk7c)
