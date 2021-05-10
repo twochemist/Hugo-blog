@@ -74,7 +74,7 @@ theme = "aafu"
     [params.aboutme]
         title = "About Me"
         icon = "fas fa-user"
-        description = "Web Development, Embedded Systems and Software that move things. Professionally connected with the Automotive Industry with a special focus on product development for Exterior Lighting & Electronic Systems. I graduated with a master's degree in Chemistry from the University of Granada in Spain. Experienced in printed circuit boards, embedded technologies, sensors, actuators and industry physical systems."
+        description = "Web Development, Embedded Systems and Software that move things. Professionally connected with the Automotive Industry with a special focus on product development for Exterior Lighting & Electronic Systems. Experienced in printed circuit boards, embedded technologies, sensors, actuators and industry physical systems."
 
     # Experience section
     [params.experience]
